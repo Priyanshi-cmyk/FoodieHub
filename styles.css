@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #ff4d4d;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 24px;
+}
+
+.hero {
+    background: url('food-background.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.restaurant-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.restaurant-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.restaurant-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.restaurant-card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
